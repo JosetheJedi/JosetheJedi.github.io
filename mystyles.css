@@ -1,0 +1,12 @@
+.honors-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-gap: 50px;
+    justify-items: stretch;
+    margin: 4rem;
+    
+}
+
+.honors-img {
+    width: 100%;
+}
