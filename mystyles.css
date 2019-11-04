@@ -10,3 +10,35 @@
 .honors-img {
     width: 100%;
 }
+
+.my-photos {
+    width: 600px;
+    height: 750px;
+}
+
+.photos-container {
+    display: grid;
+    justify-content: center;
+}
+
+.item {
+    width: 100%;
+}
+
+.photo-container {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-gap: 100px;
+}
+
+.portrait-text, .concept-text, .product-text {
+    padding: 10rem;
+}
+
+.portrait-container, .product-container {
+    background: #fefbd8;
+}
+
+.concept-container {
+    background: #d5f4e6;
+}
