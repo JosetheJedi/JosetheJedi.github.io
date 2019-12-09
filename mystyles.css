@@ -36,11 +36,13 @@
 }
 
 .portrait-container, .product-container {
-    background: #fefbd8;
+    background: rgb(29,232,236);
+background: linear-gradient(266deg, rgba(29,232,236,0.15732230392156865) 0%, rgba(254,244,216,1) 100%);
 }
 
 .concept-container {
-    background: #d5f4e6;
+    background: rgb(29,232,236);
+background: linear-gradient(266deg, rgba(29,232,236,0.15732230392156865) 0%, rgba(254,244,216,1) 100%);
 }
 
 a {
@@ -49,4 +51,19 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+body{
+    background: rgb(29,232,236);
+background: linear-gradient(266deg, rgba(29,232,236,0.15732230392156865) 0%, rgba(254,244,216,1) 100%);
+}
+
+.navbar,  .navbar-fixed-top, .navbar-default{
+    background: rgb(29,232,236);
+background: linear-gradient(266deg, rgba(29,232,236,1) 0%, rgba(254,244,216,1) 100%);
+}
+
+.section-header{
+    background: rgb(34,193,195);
+background: linear-gradient(180deg, rgba(34,193,195,0.7931766456582633) 0%, rgba(245,211,239,0.5606836484593838) 100%);
 }
